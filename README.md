@@ -9,7 +9,31 @@ This repository intentionally holds **no source code** — only:
 
 both attached to **[Releases](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-app/releases)**.
 
-It exists as a separate, public repo so the app can download the model bundle from a plain HTTPS URL with no login or access token embedded in the client, while the application's source code stays in the private [devops-interview-ai](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-ai) repository.
+It exists as a separate, public repo so the app can download the model bundle **and check for app updates** from plain HTTPS URLs with no login or access token embedded in the client, while the application's source code stays in the private [devops-interview-ai](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-ai) repository. Every new app version is published here automatically by CI, so the **[Releases](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-app/releases)** tab of this repo is always the place to get the latest signed production APK.
+
+---
+
+## What the app does
+
+**DevOps Interview AI** puts you in a realistic mock job interview — no account, no cloud, and no interview anxiety in front of a real human.
+
+1. **Everything runs on your phone.** On first launch the app downloads the Gemma 3 1B language model once (~530 MB) behind a DevOps-pipeline-themed loading screen; after that, interviews work fully offline — your answers never leave the device.
+
+   ![Splash / model bootstrap screen](screenshots/splash_screen.png)
+
+2. **Pick your interviewer.** Four personas with different difficulty levels and focus areas — from a friendly Recruiter (CV, culture fit) up to a CTO grilling you on architecture and trade-offs.
+
+   ![Interviewer selection screen](screenshots/interviewer_selection.png)
+
+3. **The interview is a video call.** The session looks and feels like Google Meet: the AI interviewer sits in the large tile — speaking out loud with lip-sync, gestures, and live captions — while your front camera shows in the corner. Answer by voice (tap the mic and just talk) or type in the in-call chat panel.
+
+   ![Active Google Meet-style interview session](screenshots/meet_interface.png)
+
+4. **Get scored feedback.** After five questions the interviewer wraps up and evaluates your answers; past sessions are stored locally in the History screen.
+
+### Staying up to date
+
+The app checks this repository for new versions on startup, and you can always trigger it yourself: on the interviewer selection screen, tap **Check for Updates** next to the version number. Updates install over the existing build and never touch the downloaded model.
 
 ---
 
