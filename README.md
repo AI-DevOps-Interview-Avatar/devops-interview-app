@@ -19,17 +19,17 @@ It exists as a separate, public repo so the app can download the model bundle **
 
 1. **Everything runs on your phone.** On first launch the app downloads the Gemma 3 1B language model once (~530 MB) behind a DevOps-pipeline-themed loading screen; after that, interviews work fully offline — your answers never leave the device.
 
-   ![Splash / model bootstrap screen](screenshots/splash_screen.png)
+2. **Pick your interviewer, or run the full pipeline.** Four personas with different difficulty levels and focus areas — from a friendly Recruiter (CV, culture fit) up to a CTO grilling you on architecture and trade-offs — plus a 5-stage hiring pipeline mode that gates each round until the previous one is complete. A **Home** pill and **EN/UA** language switcher sit at the top of every screen.
 
-2. **Pick your interviewer.** Four personas with different difficulty levels and focus areas — from a friendly Recruiter (CV, culture fit) up to a CTO grilling you on architecture and trade-offs.
+   ![Interviewer selection screen with Home pill, EN/UA toggle, and persona cards](screenshots/interviewer_selection.jpg)
 
-   ![Interviewer selection screen](screenshots/interviewer_selection.png)
+3. **The interview is a video call.** The session looks and feels like Google Meet: the AI interviewer sits in the large tile — a live-animated Rive avatar speaking out loud with lip-sync, gestures, and live captions — while your front camera shows in the corner. Answer by voice (tap the mic and just talk — a self-healing recognizer restart means it won't cut you off mid-thought) or type in the in-call chat panel.
 
-3. **The interview is a video call.** The session looks and feels like Google Meet: the AI interviewer sits in the large tile — speaking out loud with lip-sync, gestures, and live captions — while your front camera shows in the corner. Answer by voice (tap the mic and just talk) or type in the in-call chat panel.
+   ![Active Google Meet-style interview session with HR's Rive avatar](screenshots/meet_interface.jpg)
 
-   ![Active Google Meet-style interview session](screenshots/meet_interface.png)
+4. **Practice, review, and prep beyond the interview itself.** Dedicated screens for browsing the question bank / self-quiz, an offline resume checklist, curated job-search resources, and a Developers page — all reachable from the nav pills on the selection screen.
 
-4. **Get scored feedback.** After five questions the interviewer wraps up and evaluates your answers; past sessions are stored locally in the History screen.
+5. **Get scored feedback.** After five questions the interviewer wraps up and evaluates your answers; past sessions are stored locally in the History screen.
 
 ### Staying up to date
 
