@@ -1,6 +1,6 @@
 # Privacy Policy — DevOps Interview AI
 
-**Effective date:** 11 September 2026
+**Effective date:** 17 September 2026
 **Application:** DevOps Interview AI (`com.devopsai.interview`)
 **Developer:** Alex Korchenko
 **Contact:** mainoceanm@gmail.com
@@ -11,10 +11,16 @@
 
 DevOps Interview AI runs the entire interview on your phone. Your answers, the
 questions, the transcript and the interviewer's replies are produced and stored
-on the device and are never transmitted anywhere. There is no account, no
+on the device, and the app transmits none of them. There is no account, no
 server, no analytics and no advertising.
 
-The app connects to the internet exactly twice in its life, and neither
+One thing is worth knowing before you use the microphone: turning speech into
+text is done by your device's own speech service, not by this app, and on some
+Android devices that service works through the cloud. Typing your answers
+avoids it entirely. The *Permissions* section below says exactly what that
+means.
+
+The app itself connects to the internet exactly twice in its life, and neither
 connection carries anything you said:
 
 1. **Once, on first launch** — to download the AI model file (about 528 MB) from
@@ -51,15 +57,26 @@ a cloud or ADB backup either.
 
 | Permission | Why | What leaves the device |
 |---|---|---|
-| **Microphone** (`RECORD_AUDIO`) | Speech recognition converts your spoken answer to text so the interviewer can respond | Nothing. Audio is processed for the live session and not recorded, stored or uploaded |
+| **Microphone** (`RECORD_AUDIO`) | Speech recognition converts your spoken answer to text so the interviewer can respond | This app records nothing, stores nothing and uploads nothing. Recognition itself is performed by your device's built-in speech service, which on many Android devices sends the audio to its provider — see the note under this table |
 | **Camera** (`CAMERA`) | Optional self-view preview in the Meet-style interview screen, so you can see yourself as in a real call | Nothing. The preview is never captured, saved or transmitted. Denying it falls back to a silhouette and the interview works normally |
 | **Internet** (`INTERNET`, `ACCESS_NETWORK_STATE`) | The one-time model download, and the update check in the GitHub version | Only ordinary HTTP requests to `github.com`. No interview content is ever included |
 | **Install unknown apps** (`REQUEST_INSTALL_PACKAGES`) | **GitHub version only.** Lets the app hand a downloaded update to the Android installer | Nothing. Not present in the Google Play version at all |
 
-Speech recognition uses the speech service built into your Android device. If
-your device is configured to use a cloud-based recogniser, that processing is
-governed by your device manufacturer's and speech provider's privacy policies,
-not by this app — this is an Android system setting you control.
+**About speech recognition.** When you answer out loud, the app hands the
+microphone stream to the speech recognition service built into your Android
+device — on most phones, Google's. That service may transcribe your speech on
+the device or send the audio to its provider's servers; which one happens
+depends on your device, your system settings and whether an offline language
+pack for your language is installed. That processing is governed by your device
+manufacturer's and speech provider's privacy policies, not by this one, and the
+app cannot see which path was taken.
+
+Only the resulting text comes back to the app, and it is used solely to continue
+the interview on your device.
+
+**If you want nothing to leave your device at all, type your answers instead.**
+The in-call text input involves no recognition service whatsoever. Denying the
+microphone permission outright also leaves the app fully usable.
 
 ## The AI model
 
@@ -89,6 +106,11 @@ statement applies to those requests: https://docs.github.com/site-policy/privacy
 
 If the app is installed from Google Play, Google's own policies apply to the
 installation and update process.
+
+The *Job search resources*, *Developers* and Telegram links open in your
+browser. The app only hands the address to the system — it sends nothing with
+it — but from the moment the page opens, that site's own privacy policy applies
+instead of this one.
 
 ## Your rights
 
