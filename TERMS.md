@@ -2,8 +2,8 @@
 
 **Effective date:** 19 November 2026
 **Application:** DevOps Interview AI (`com.devopsai.interview`)
-**Developer:** Alex Korchenko
-**Contact:** mainoceanm@gmail.com
+**Developer:** Geekoji Network — https://geekojinet.work/about
+**Contact:** admin@geekojinet.work
 
 ---
 
@@ -103,6 +103,6 @@ see [PRIVACY.md](PRIVACY.md).
 
 ## 10. Contact
 
-Questions about these terms, or commercial licensing: **mainoceanm@gmail.com**
+Questions about these terms, or commercial licensing: **admin@geekojinet.work**
 
 Project: https://github.com/AI-DevOps-Interview-Avatar

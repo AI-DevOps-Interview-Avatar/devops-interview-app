@@ -1,9 +1,9 @@
 # Privacy Policy — DevOps Interview AI
 
-**Effective date:** 17 September 2026
+**Effective date:** 20 November 2026
 **Application:** DevOps Interview AI (`com.devopsai.interview`)
-**Developer:** Alex Korchenko
-**Contact:** mainoceanm@gmail.com
+**Developer:** Geekoji Network — https://geekojinet.work/about
+**Contact:** admin@geekojinet.work
 
 ---
 
@@ -126,4 +126,4 @@ against the previous text.
 
 ## Contact
 
-Questions about this policy: **mainoceanm@gmail.com**
+Questions about this policy: **admin@geekojinet.work**
