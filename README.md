@@ -79,4 +79,4 @@ checking. **[TERMS.md](TERMS.md)** says that in full.
 
 The application (source in [devops-interview-ai](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-ai)) and the binaries distributed here are licensed under the **Business Source License 1.1** by Alex Korchenko. Source is available for reference, learning, personal, educational, and non-commercial evaluation use; commercial use, redistribution, or derivative products require a separate commercial license. See the [LICENSE](https://github.com/AI-DevOps-Interview-Avatar/devops-interview-ai/blob/main/LICENSE) file in the main repo for the full text.
 
-For commercial licensing inquiries, contact: **mainoceanm@gmail.com**
+For commercial licensing inquiries, contact: **admin@geekojinet.work**
