@@ -62,12 +62,16 @@ Full walkthroughs (Windows/BlueStacks/LDPlayer, building from source, troublesho
 
 ---
 
-## Privacy
+## Privacy and terms
 
 The interview runs entirely on your phone. Nothing you say or type is sent
 anywhere — the app has no server, no account and no analytics, and works with
 the network switched off once the model has downloaded. Details, permission by
 permission, in **[PRIVACY.md](PRIVACY.md)**.
+
+The app is free, has no in-app purchases, and makes no promises about your
+career: it is a rehearsal tool whose answers are machine-generated and worth
+checking. **[TERMS.md](TERMS.md)** says that in full.
 
 ---
 
